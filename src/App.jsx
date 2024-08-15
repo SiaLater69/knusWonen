@@ -6,6 +6,7 @@ import Cta from './components/Cta'
 import Nieuws from './components/Nieuws'
 import Cta2 from './components/Cta2'
 import Footer from './components/Footer'
+import Privacy from './components/Privacy';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Nieuws/>
       <Cta2/>
       <Footer/>
+      <Privacy/>
     </>
   )
 }
