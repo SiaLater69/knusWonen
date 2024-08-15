@@ -1,0 +1,4 @@
+When Looking at the design I saw a few things that were wrong.
+Firstly the espect ratio(width) of the design stretches farther than the recommended desin width which is 1440px
+this offsets some elements when the screen is resized.
+It would also be better if the height of the design was more consistant.
