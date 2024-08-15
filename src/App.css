@@ -1,0 +1,12 @@
+.w-full lg:flex lg:items-center lg:w-auto {
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .text-sm {
+      font-size: 14px;
+    }
+  }
+  button:hover svg {
+    fill: #333;
+  }
