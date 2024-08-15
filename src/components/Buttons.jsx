@@ -6,7 +6,7 @@ import Hand from '../assets/Button/HandDepositIcon.svg';
 // buttons for hero section
 const Buttons = () => {
   return (
-    <div className="absolute ml-[300px] mt-[-85px] grid gap-4 grid-cols-3 h-16">
+    <div className="absolute ml-[300px] mt-[-85px] flex justify-between gap-x-3">
       {buttonsData.map((button, index) => (
         <button
           key={index}
