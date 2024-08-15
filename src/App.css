@@ -10,3 +10,12 @@
   button:hover svg {
     fill: #333;
   }
+
+  @media screen and (max-width: 450px) {
+    .text{
+      font-size: 18px;
+      margin-top: -120px;
+      margin-left: 20%;
+    }
+    
+  }
