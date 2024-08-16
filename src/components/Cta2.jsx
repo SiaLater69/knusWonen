@@ -4,7 +4,7 @@ import Path from '../assets/CTA2/Path 2.svg'
 
 const Cta2 = () => {
   return (
-    <div className=" cta2 flex lg:mt-24 lg:w-[1512px] lg:h-[500px] md:mt-10 md:w-[800px] md:h-[820px]">
+    <div className=" cta2 flex lg:mt-24 lg:w-[1512px] lg:h-[500px] md:mt-10 md:w-[800px] md:h-[820px] sm:w-[400px]">
     {/* left text */}
         <div className='h-[372px]'>
             <h1 className='overlock-bold text-[32px] lg:ml-[248px] text-[#FF6B38] lg:w-[597px] lg:h-8 mb-4 md:ml-[150px] md:w-[496px]'>Schrijf je in voor onze nieuwsbrief</h1>

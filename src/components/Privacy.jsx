@@ -2,7 +2,7 @@ import React from 'react'
 
 const Privacy = () => {
   return (
-    <div className='w-[1512px] h-[48px] bg-white flex  items-center pl-[144px] gap-x-3 poppins-regular text-xs leading-[18px] text-black'>
+    <div className='lg:w-[1512px] lg:h-[48px] bg-white flex  items-center lg:pl-[144px] gap-x-3 poppins-regular text-xs leading-[18px] text-black md:w-[800px] sm:w-[400px]'>
         <p>Privacy</p>
         <p>Cookieverklaring</p>
         <p >Disclaimer</p>

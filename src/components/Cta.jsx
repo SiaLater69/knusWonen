@@ -5,7 +5,7 @@ import CtaPath from '../assets/CTA/Path 3.svg';
 
 function Cta() {
   return (
-    <div className=" cta lg:w-[1512px] lg:h-[500px] relative md:w-[800px] md:h-[650px] sm:w-[460px]">
+    <div className=" cta lg:w-[1512px] lg:h-[500px] relative md:w-[800px] md:h-[650px] sm:w-[400px]">
       <img
         className=" blob absolute lg:w-[254px] lg:h-[274px] lg:ml-[170px] lg:mt-[-50px] md:w-[200px] md:ml-[12%] md:mt-[-28px]"
         src={CtaPath}
