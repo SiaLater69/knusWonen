@@ -17,5 +17,35 @@
       margin-top: -120px;
       margin-left: 20%;
     }
-    
+    .blob{
+      width: 100px;
+      height: 150px;
+      margin-top: -45px;
+    }
+    .cta{
+      height: 725px;
+    }
+
+    .cta h1{
+      font-size: 28px;
+      margin-top: 5px;
+      margin-left: 23px;
+    }
+
+    .cta p{
+      font-size: 16px;
+      margin-top: 15px;
+      margin-left: 8%;
+      width: 70%;
+    }
+
+    .cta button{
+      margin-left: 20%;
+    }
+    .image1{
+      margin-top: 130px;
+      width: 80%;
+      margin-left: 10%;
+      border-radius: 12px;
+    }
   }
