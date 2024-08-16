@@ -4,11 +4,11 @@ import Path from '../assets/CTA2/Path 2.svg'
 
 const Cta2 = () => {
   return (
-    <div className="flex mt-24 w-[1512px] h-[500px]">
+    <div className=" cta2 flex lg:mt-24 lg:w-[1512px] lg:h-[500px] md:mt-10 md:w-[800px] md:h-[820px]">
     {/* left text */}
         <div className='h-[372px]'>
-            <h1 className='overlock-bold text-[32px] ml-[248px] text-[#FF6B38] w-[597px] h-8 mb-4'>Schrijf je in voor onze nieuwsbrief</h1>
-                <div className='poppins-regular text-base text-black ml-[248px] w-[496px] leading-6'>
+            <h1 className='overlock-bold text-[32px] lg:ml-[248px] text-[#FF6B38] lg:w-[597px] lg:h-8 mb-4 md:ml-[150px] md:w-[496px]'>Schrijf je in voor onze nieuwsbrief</h1>
+                <div className='poppins-regular text-base text-black lg:ml-[248px] w-[496px] leading-6 md:ml-[150px]'>
                     <p>
                         Wil je als eerste op de hoogte zijn van het laatste nieuws over jouw woning en buurt? Schrijf je dan in voor de nieuwsbrief van KnusWonen! Iedere maand sturen we je een update met belangrijk nieuws, praktische tips, en informatie over onderhoudsprojecten en buurtactiviteiten. Of je nu wilt weten wanneer er werkzaamheden gepland zijn, of je geïnteresseerd bent in nieuwe initiatieven in de wijk, onze nieuwsbrief zorgt ervoor dat je niets mist.</p>
                         <br/>
@@ -18,8 +18,8 @@ const Cta2 = () => {
                 </div>   
         </div>
         {/* right image */}
-        <img src={Path} alt="Path" className="absolute w-[140.43px] h-[171.3px] ml-[1260px] mt-[250px]"/>
-        <img src={image} alt="image" className="relative h-[372px] w-[498px] rounded-[12px] shadow-lg"/>
+        <img src={Path} alt="Path" className="img1 absolute lg:w-[140.43px] lg:h-[171.3px] lg:ml-[1170px] lg:mt-[250px] md:ml-[580px] md:mt-[690px] md:w-[100px]"/>
+        <img src={image} alt="image" className="img2 relative lg:h-[372px] lg:w-[498px] md:h-[372px] md:w-[498px] rounded-[12px] shadow-lg lg:ml-[-70px] lg:mt-0 md:ml-[-500px] md:mt-[50%]"/>
     </div>
   )
 }
